@@ -1,0 +1,24 @@
+# dataset_SSDD or dataset_HRSID
+
+# dataset location
+# ├── DEPDet
+# └── dataset_SSDD or dataset_HRSID
+#     └── images
+#         └── train
+#         └── val
+#         └── test
+#     └── labels
+#         └── train
+#         └── val
+#         └── test
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /root/my-tmp/project/DEPDet/dataset_HRSID # dataset_SSDD or dataset_HRSID
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test  # test images (optional)
+
+# Classes
+names:
+  0: ship
+
