@@ -8,7 +8,7 @@ import timm
 import torch
 import torch.nn as nn
 
-from ultralytics.nn.extra_modules import *
+from ultralytics.nn.DEPDet_modules import *
 from ultralytics.nn.modules import *
 from ultralytics.yolo.utils import DEFAULT_CFG_DICT, DEFAULT_CFG_KEYS, LOGGER, colorstr, emojis, yaml_load
 from ultralytics.yolo.utils.checks import check_requirements, check_suffix, check_yaml
