@@ -30,3 +30,6 @@ Go to the main/ directory and use the following commands, the other parameters a
 # Model prediction
 Adjustments are made in mypre.py, which can be run straight away.
 
+# Paper link
+The article can be obtained by https://ieeexplore.ieee.org/document/10695810.
+
